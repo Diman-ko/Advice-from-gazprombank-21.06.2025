@@ -1,0 +1,87 @@
+.advice-card {
+    width: 100%;
+    min-height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px 32px;
+}
+
+.advice-card__item  {
+    min-height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc((100% - 96px) / 4);
+    padding: 20px;
+    border-radius: 12px;
+    background-size: cover;        /* растягивает картинку */
+    background-position: center;   /* центрирует */
+    background-repeat: no-repeat;  /* не повторяет */
+}
+
+.advice-card__card-top {
+    display: flex;
+    gap: 12px;
+}
+
+.advice-card__title {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.advice-card__description {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+}
+
+
+.advice-card__item--first  {
+    background-image: url("../../images/img-card/Rectangle-pension.png");
+}
+
+.advice-card__item--second {
+    background-image: url("../../images/img-card/Rectangle-rating.png");
+}
+
+.advice-card__item--third  {
+    background-image: url("../../images/img-card/Rectangle-buy-ingots.png");
+}
+
+.advice-card__item--fourth {
+    background-image: url("../../images/img-card/Rectangle-tax-deduction.png");
+}
+
+.advice-card__item--fifth  {
+    background-image: url("../../images/img-card/Rectangle-transfer.png");
+}
+
+.advice-card__item--sixth  {
+    background-image: url("../../images/img-card/Rectangle-Right-to-dismissal.png");
+}
+
+.advice-card__item--seventh  {
+    background-image: url("../../images/img-card/Rectangle-hide-balance.png");
+}
+
+.advice-card__item--eighth {
+    background-image: url("../../images/img-card/Rectangle-credit-load.png");
+}
+
+
+.advice-card__link {
+    display: flex;
+    width: 100%;
+    padding: 14px;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #476BF0;
+    border-radius: 8px;
+}
+
