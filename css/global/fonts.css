@@ -12,7 +12,7 @@
     src: url("../../fonts/NotoSans-Medium.woff2") format("woff2"),
     url("../../fonts/NotoSans-Medium.woff") format("woff");
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-display: swap;
 
 }
